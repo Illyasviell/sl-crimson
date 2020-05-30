@@ -9,7 +9,7 @@ import mongodb from 'mongodb'
 import fileUpload from 'express-fileupload'
 import morgan from 'morgan'
 import _ from 'lodash'
-import health from 'express-ping'
+import health from 'express-ping';
 
 
 const MongoClient = mongodb.MongoClient
